@@ -172,3 +172,158 @@
 
 
 /* Top Hero Section Design End */
+
+
+
+
+/* My Services Section Design Start */
+
+
+
+.my-services{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.inner-my-services{
+    width: 1280px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding: 200px 0;
+}
+
+.my-services-info{
+    width: 40%;
+}
+
+.my-services-info h1{
+    font-size: 70px;
+    font-weight: 900;
+    font-family: 'Arima', sans-serif;
+}
+
+#service-word{
+    font-size: 94px;
+    color: #FB9731;
+}
+
+.my-services-info p{
+    font-size: 14px;
+    font-weight: 300;
+    color: #646464;
+    line-height: 150%;
+    letter-spacing: 1px;
+    padding-bottom: 40px;
+    padding-right: 20px;
+}
+
+.my-services-info a{
+    text-decoration: none;
+    color: #fff;
+    background-image: linear-gradient(45deg, #FB9731, #FDC202);
+    transition: 0.5s all ease-in-out;
+    padding: 15px 35px;
+    border-radius: 50px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 14px;
+    font-weight: 400;
+    box-shadow: 10px 20px 40px #FDC202;
+}
+
+.my-services-info a:hover{
+    box-shadow: 10px 20px 40px #ECA9FF;
+}
+
+.my-services-cards{
+    width: 60%;
+    position: relative;
+}
+
+.card{
+    width: 300px;
+    overflow: hidden;
+    padding: 40px 20px; 
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    position: absolute;
+}
+
+.card .card-img{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.card-img img{
+    width: 100px;
+}
+
+.card-info{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card-info h3{
+    font-size: 18px;
+    font-weight: 600;
+    color: #F8A31A;
+    padding: 15px 0;
+}
+
+.card-info p{
+    font-size: 14px;
+    font-weight: 300;
+    color: #646464;
+    line-height: 150%;
+    letter-spacing: 1px;
+    text-align: justify;
+    padding: 0 15px 15px;
+}
+
+.card-info a{
+    text-decoration: none;
+    color: #000;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    padding: 10px 25px;
+    box-shadow: 0px 0px 30px #ECA9FF;
+    transition: 0.3s all ease-in-out;
+}
+
+.card-info a:hover{
+    background-color: #F8A31A;
+    color: #fff;
+    box-shadow: 0px 0px 30px #FDC202;
+}
+
+
+.card-1{
+    right: 0;
+    top: -200px;
+}
+
+.card-2{
+    left: 20px;
+    top: 50px;
+}
+
+
+
+
+
+
+
+/* My Services Section Design End */
